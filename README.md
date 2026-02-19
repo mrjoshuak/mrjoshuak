@@ -15,13 +15,12 @@
 
 ## What I'm working on
 
-- **[godoc-mcp](https://github.com/mrjoshuak/godoc-mcp)** — MCP server that gives AI agents access to Go documentation. Because your copilot should actually be able to read the docs.
 - **[C4](https://github.com/Avalanche-io/c4)** — Content-based identification for media production ([SMPTE ST 2114:2017](https://ieeexplore.ieee.org/document/8187168)). Separate what a file *is* from where it lives — deduplication, provenance, and asset tracking without a central authority. A 23 KB manifest can describe 8 TB of media. The files keep track of themselves.
+- **[go-openexr](https://github.com/mrjoshuak/go-openexr)** — Pure Go OpenEXR. No CGo, no C libraries, just the format spec implemented from scratch.
+- **[absfs](https://github.com/absfs)** — Abstract filesystem ecosystem for Go. 35+ composable packages: in-memory, encrypted, cached, copy-on-write, union, NFS, S3, SFTP, FUSE, and more. Plug them together like building blocks.
+- **[godoc-mcp](https://github.com/mrjoshuak/godoc-mcp)** — MCP server that gives AI agents access to Go documentation. Because your copilot should actually be able to read the docs.
 
-- **[absfs](https://github.com/absfs)** — Abstract filesystem ecosystem for Go. 35+ composable packages: in-memory, encrypted, cached, copy-on-write, union, NFS, S3, SFTP, FUSE, and more. Plug them together like building blocks. The modern alternative to afero.
-
-**Pure Go format implementations** — I rewrite complex binary formats in pure Go so you don't need CGo:
-- **[go-openexr](https://github.com/mrjoshuak/go-openexr)** — OpenEXR high dynamic range images
+**More pure Go format implementations** — complex binary formats without CGo:
 - **[go-jpeg2000](https://github.com/mrjoshuak/go-jpeg2000)** — JPEG 2000 with HTJ2K support
 - **[go-alembic](https://github.com/mrjoshuak/go-alembic)** — Alembic 3D graphics interchange
 - **[go-blosc](https://github.com/mrjoshuak/go-blosc)** — Blosc compression with SIMD-accelerated shuffle
@@ -30,7 +29,7 @@
 
 ## Previously
 
-Three decades in visual effects and pipeline engineering, starting at Cinesite Hollywood in 1995. VFX credits include Avatar, Titanic, The Fifth Element, Fight Club, Armageddon, War of the Worlds, The Day After Tomorrow, Stuart Little, and Men in Black II — [39 credits](https://www.imdb.com/name/nm0463978/) across roles from digital sequence supervisor to virtual production supervisor. Built the systems that move terabytes of VFX and animation data between studios, render farms, and artists — the plumbing that productions depend on but nobody sees.
+Three decades in visual effects and pipeline engineering, starting at Cinesite Hollywood in 1995. VFX credits include Avatar, Titanic, The Fifth Element, Fight Club, Armageddon, War of the Worlds, The Day After Tomorrow, Stuart Little, and Men in Black II — [39 credits](https://www.imdb.com/name/nm0463978/) across roles from digital sequence supervisor to [virtual production](https://www.hollywoodreporter.com/business/business-news/dispute-avatar-prodn-technology-settled-25310/) supervisor. Built the systems that move terabytes of VFX and animation data between studios, render farms, and artists — the plumbing that productions depend on but nobody sees.
 
 <details>
 <summary><b>Full Filmography</b></summary>
