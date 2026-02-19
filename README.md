@@ -11,7 +11,7 @@
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 
-> I build the layers other software stands on. Format codecs without C dependencies, content-addressable identity for production pipelines, AI infrastructure from first principles.
+> Thirty years of asking "what if we just didn't do that part?" I keep showing up ten years early and removing things until they work.
 
 ![GitHub Contribution Graph](contribution_graph.png)
 
