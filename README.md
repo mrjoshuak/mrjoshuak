@@ -72,6 +72,16 @@ Three decades in visual effects and pipeline engineering, starting at Cinesite H
 
 </details>
 
+## Talks
+
+- **[The Magic of C4](https://www.youtube.com/watch?v=vzh0JzKhY4o)** — ETC at USC, on indelible metadata and agreement without communication
+- **[The Cinema Content Creation Cloud](https://www.youtube.com/watch?v=MSsuXNrU3c8)** — Introduction to the C4 framework
+- **[C4 Framework Universal Asset ID](https://www.youtube.com/watch?v=ZHQY0WYmGYU)** — Content-addressable identification for production
+- **[Global File Management with C4](https://www.youtube.com/watch?v=P0vFAvfjTZA)** — Managing assets across distributed systems
+- **[Implementing C4 in Workflows and Software](https://www.youtube.com/watch?v=lZNjG6kcYx0)** — With Joan Wrabetz, practical integration
+- **[NAB Show 2017](https://www.youtube.com/watch?v=8WG8B8-xuss)** — SiliconANGLE theCUBE interview on Avalanche and cloud production
+- **HPA Tech Retreat 2017** — Panelist, "Production in the Cloud: Pitfalls and Epiphanies"
+
 ## GitHub Activity
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/mrjoshuak)
