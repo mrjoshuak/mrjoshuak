@@ -1,0 +1,39 @@
+name: Update Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+
+      - name: Build ghiso
+        run: cd ghiso && go build -o ghiso .
+
+      - name: Generate contribution graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./ghiso/ghiso -w 2400 -h 800 -samples 1024 -crop -o contribution_graph.png
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet contribution_graph.png; then
+            echo "No changes to contribution graph"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contribution_graph.png
+          git commit -m "Update contribution graph"
+          git push
