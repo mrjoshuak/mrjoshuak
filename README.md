@@ -16,7 +16,7 @@
 ## What I'm working on
 
 - **[godoc-mcp](https://github.com/mrjoshuak/godoc-mcp)** — MCP server that gives AI agents access to Go documentation. Because your copilot should actually be able to read the docs.
-- **[C4](https://github.com/Avalanche-io/c4)** — Content-based identification for media production ([SMPTE ST 2114:2017](https://www.imdb.com/name/nm0463978/)). Separate what a file *is* from where it lives — deduplication, provenance, and asset tracking without a central authority. A 23 KB manifest can describe 8 TB of media. The files keep track of themselves.
+- **[C4](https://github.com/Avalanche-io/c4)** — Content-based identification for media production ([SMPTE ST 2114:2017](https://ieeexplore.ieee.org/document/8187168)). Separate what a file *is* from where it lives — deduplication, provenance, and asset tracking without a central authority. A 23 KB manifest can describe 8 TB of media. The files keep track of themselves.
 
 - **[absfs](https://github.com/absfs)** — Abstract filesystem ecosystem for Go. 35+ composable packages: in-memory, encrypted, cached, copy-on-write, union, NFS, S3, SFTP, FUSE, and more. Plug them together like building blocks. The modern alternative to afero.
 
