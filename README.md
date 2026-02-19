@@ -20,7 +20,7 @@ I build the layers other software stands on. Format codecs without C dependencie
 
 ## Previously
 
-Three decades in media production pipeline architecture and asset management, starting at Cinesite Hollywood in 1995. Built systems that move terabytes of VFX and animation data between studios, render farms, and artists — the plumbing that productions depend on but nobody sees.
+Three decades in visual effects and pipeline engineering, starting at Cinesite Hollywood in 1995. VFX credits include Avatar, Titanic, The Fifth Element, Fight Club, Armageddon, War of the Worlds, The Day After Tomorrow, Stuart Little, and Men in Black II — [39 credits](https://www.imdb.com/name/nm0463978/) across roles from digital sequence supervisor to virtual production supervisor. Built the systems that move terabytes of VFX and animation data between studios, render farms, and artists — the plumbing that productions depend on but nobody sees.
 
 ## Philosophy
 
