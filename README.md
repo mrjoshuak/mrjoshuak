@@ -20,7 +20,7 @@ I build the layers other software stands on. Format codecs without C dependencie
 
 ## Previously
 
-Over a decade in media production pipeline architecture and asset management. Built systems that move terabytes of VFX and animation data between studios, render farms, and artists — the plumbing that productions depend on but nobody sees.
+Three decades in media production pipeline architecture and asset management, starting at Cinesite Hollywood in 1995. Built systems that move terabytes of VFX and animation data between studios, render farms, and artists — the plumbing that productions depend on but nobody sees.
 
 ## Philosophy
 
