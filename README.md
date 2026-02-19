@@ -29,7 +29,9 @@
 
 ## Previously
 
-Three decades in visual effects and pipeline engineering, starting at Cinesite Hollywood in 1995. VFX credits include Avatar, Titanic, The Fifth Element, Fight Club, Armageddon, War of the Worlds, The Day After Tomorrow, Stuart Little, and Men in Black II — [39 credits](https://www.imdb.com/name/nm0463978/) across roles from digital sequence supervisor to [virtual production](https://www.hollywoodreporter.com/business/business-news/dispute-avatar-prodn-technology-settled-25310/) supervisor. Built the systems that move terabytes of VFX and animation data between studios, render farms, and artists — the plumbing that productions depend on but nobody sees.
+Three decades in visual effects and pipeline engineering, starting at Cinesite Hollywood in 1995. VFX credits include Avatar, Titanic, The Fifth Element, Fight Club, Armageddon, War of the Worlds, The Day After Tomorrow, Stuart Little, and Men in Black II — [39 credits](https://www.imdb.com/name/nm0463978/) across a career spent removing walls between artists and their work.
+
+Coined the term, designed the architecture, and led the team that built the first [virtual production](https://www.hollywoodreporter.com/business/business-news/dispute-avatar-prodn-technology-settled-25310/) system — the original prototype for Avatar, alongside Rob Legato and James Cameron. Every LED stage you've seen since started there.
 
 <details>
 <summary><b>Full Filmography</b></summary>
