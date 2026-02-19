@@ -90,7 +90,7 @@ Three decades in visual effects and pipeline engineering, starting at Cinesite H
 
 ## Philosophy
 
-> Most complexity is accidental. Strip away the naming conventions, the folder hierarchies, the central registries — and what's left is what was always true: content knows what it is. Start from that, and the rest follows.
+> The best solution usually isn't a better answer — it's realizing the question was wrong. Most of the complexity we build around is just unexamined assumptions. Remove the assumption and the problem often disappears with it.
 
 ---
 
