@@ -92,7 +92,7 @@ Before that, created the first photorealistic digital face replacement — a CGI
 
 ## GitHub Activity
 
-![GitHub Contribution Graph](https://ghchart.rshah.org/mrjoshuak)
+![GitHub Contribution Graph](contribution_graph.png)
 
 ## Philosophy
 
