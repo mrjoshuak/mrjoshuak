@@ -90,7 +90,7 @@ Three decades in visual effects and pipeline engineering, starting at Cinesite H
 
 ## Philosophy
 
-> Trust content more than convention. A file's identity should be what it *is*, not what someone called it or where they put it. If a format spec exists, it can be implemented in pure Go. If an AI system needs your personal data, it should run on your hardware. If a problem has been solved with duct tape and shell scripts for twenty years, it probably deserves a real solution.
+> Most complexity is accidental. Strip away the naming conventions, the folder hierarchies, the central registries — and what's left is what was always true: content knows what it is. Start from that, and the rest follows.
 
 ---
 
