@@ -13,6 +13,8 @@
 
 > I build the layers other software stands on. Format codecs without C dependencies, content-addressable identity for production pipelines, AI infrastructure from first principles.
 
+![GitHub Contribution Graph](contribution_graph.png)
+
 ## What I'm working on
 
 - **[C4](https://github.com/Avalanche-io/c4)** — Content-based identification for media production ([SMPTE ST 2114:2017](https://ieeexplore.ieee.org/document/8187168)). Separate what a file *is* from where it lives — deduplication, provenance, and asset tracking without a central authority. A 23 KB manifest can describe 8 TB of media. The files keep track of themselves.
@@ -89,10 +91,6 @@ Before that, created the first photorealistic digital face replacement — a CGI
 - **FMX Conference** — The Day After Tomorrow visual effects, Stuttgart
 - **SMPTE 2015** — C4 ID system presentation, led to ST 2114:2017 standard adoption
 - **HPA Tech Retreat 2017** — Panelist, "Production in the Cloud: Pitfalls and Epiphanies"
-
-## GitHub Activity
-
-![GitHub Contribution Graph](contribution_graph.png)
 
 ## Philosophy
 
