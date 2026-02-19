@@ -33,6 +33,8 @@ Three decades in visual effects and pipeline engineering, starting at Cinesite H
 
 Coined the term, designed the architecture, and led the team that built the first [virtual production](https://www.hollywoodreporter.com/business/business-news/dispute-avatar-prodn-technology-settled-25310/) system — the original prototype for Avatar, alongside Rob Legato and James Cameron. Every LED stage you've seen since started there.
 
+Before that, created the first photorealistic digital face replacement — a CGI young James Brown for the Experience Music Project — and pioneered HDR image-based lighting for production VFX, both at Digital Domain. The face work predated Benjamin Button by nearly a decade.
+
 <details>
 <summary><b>Full Filmography</b></summary>
 <br>
@@ -77,12 +79,15 @@ Coined the term, designed the architecture, and led the team that built the firs
 
 ## Talks
 
+- **SIGGRAPH 2001** — "The Future of Color" panel with cinematographer Allen Daviau ASC
 - **[The Magic of C4](https://www.youtube.com/watch?v=vzh0JzKhY4o)** — ETC at USC, on indelible metadata and agreement without communication
 - **[The Cinema Content Creation Cloud](https://www.youtube.com/watch?v=MSsuXNrU3c8)** — Introduction to the C4 framework
 - **[C4 Framework Universal Asset ID](https://www.youtube.com/watch?v=ZHQY0WYmGYU)** — Content-addressable identification for production
 - **[Global File Management with C4](https://www.youtube.com/watch?v=P0vFAvfjTZA)** — Managing assets across distributed systems
 - **[Implementing C4 in Workflows and Software](https://www.youtube.com/watch?v=lZNjG6kcYx0)** — With Joan Wrabetz, practical integration
 - **[NAB Show 2017](https://www.youtube.com/watch?v=8WG8B8-xuss)** — SiliconANGLE theCUBE interview on Avalanche and cloud production
+- **FMX Conference** — The Day After Tomorrow visual effects, Stuttgart
+- **SMPTE 2015** — C4 ID system presentation, led to ST 2114:2017 standard adoption
 - **HPA Tech Retreat 2017** — Panelist, "Production in the Cloud: Pitfalls and Epiphanies"
 
 ## GitHub Activity
