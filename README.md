@@ -16,7 +16,9 @@
 ## What I'm working on
 
 - **[godoc-mcp](https://github.com/mrjoshuak/godoc-mcp)** — MCP server that gives AI agents access to Go documentation. Because your copilot should actually be able to read the docs.
-- **[C4](https://github.com/Avalanche-io/c4)** — Content-based identification system for media production. Deterministic IDs from file content — deduplication, provenance, and asset tracking without a central authority. Hollywood's missing protocol for cloud-based production.
+- **[C4](https://github.com/Avalanche-io/c4)** — Content-based identification for media production ([SMPTE ST 2114:2017](https://www.imdb.com/name/nm0463978/)). Separate what a file *is* from where it lives — deduplication, provenance, and asset tracking without a central authority. A 23 KB manifest can describe 8 TB of media. The files keep track of themselves.
+
+- **[absfs](https://github.com/absfs)** — Abstract filesystem ecosystem for Go. 35+ composable packages: in-memory, encrypted, cached, copy-on-write, union, NFS, S3, SFTP, FUSE, and more. Plug them together like building blocks. The modern alternative to afero.
 
 **Pure Go format implementations** — I rewrite complex binary formats in pure Go so you don't need CGo:
 - **[go-openexr](https://github.com/mrjoshuak/go-openexr)** — OpenEXR high dynamic range images
@@ -88,7 +90,7 @@ Three decades in visual effects and pipeline engineering, starting at Cinesite H
 
 ## Philosophy
 
-> If a format spec exists, it can be implemented in pure Go. If an AI system needs your personal data, it should run on your hardware. If a problem has been solved with duct tape and shell scripts for twenty years, it probably deserves a real solution.
+> Trust content more than convention. A file's identity should be what it *is*, not what someone called it or where they put it. If a format spec exists, it can be implemented in pure Go. If an AI system needs your personal data, it should run on your hardware. If a problem has been solved with duct tape and shell scripts for twenty years, it probably deserves a real solution.
 
 ---
 
