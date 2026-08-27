@@ -1,104 +1,45 @@
 # Joshua Kolden
 
-**Los Angeles** · media production technology · pure Go · AI systems
+**Seattle** · platform engineering · media production technology · pure Go · AI systems
 
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![OpenEXR](https://img.shields.io/badge/-OpenEXR-2C2C2C?style=flat-square&logoColor=white)
-![JPEG2000](https://img.shields.io/badge/-JPEG_2000-2C2C2C?style=flat-square&logoColor=white)
-![Alembic](https://img.shields.io/badge/-Alembic-2C2C2C?style=flat-square&logoColor=white)
-![MCP](https://img.shields.io/badge/-MCP-000000?style=flat-square&logo=anthropic&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
-
-> Thirty years of asking "what if we just didn't do that part?" I keep showing up ten years early and removing things until they work.
-
-![GitHub Contribution Graph](contribution_graph.png)
+> "What if we just didn't do that part?" I keep removing things until they work.
 
 ## What I'm working on
 
-- **[C4](https://github.com/Avalanche-io/c4)** — Content-based identification for media production ([SMPTE ST 2114:2017](https://ieeexplore.ieee.org/document/8187168)). Separate what a file *is* from where it lives — deduplication, provenance, and asset tracking without a central authority. A 23 KB manifest can describe 8 TB of media. The files keep track of themselves.
-- **[go-openexr](https://github.com/mrjoshuak/go-openexr)** — Pure Go OpenEXR. No CGo, no C libraries, just the format spec implemented from scratch.
-- **[absfs](https://github.com/absfs)** — Abstract filesystem ecosystem for Go. 35+ composable packages: in-memory, encrypted, cached, copy-on-write, union, NFS, S3, SFTP, FUSE, and more. Plug them together like building blocks.
-- **[godoc-mcp](https://github.com/mrjoshuak/godoc-mcp)** — MCP server that gives AI agents access to Go documentation. Because your copilot should actually be able to read the docs.
+Open-source and standards work in media infrastructure, here and at [Avalanche-io](https://github.com/Avalanche-io). I architect, review and own the work; Claude Code accelerates the implementation.
 
-**More pure Go format implementations** — complex binary formats without CGo:
-- **[go-jpeg2000](https://github.com/mrjoshuak/go-jpeg2000)** — JPEG 2000 with HTJ2K support
+- **[C4 Suite](https://github.com/Avalanche-io/c4)** (March 2026; latest release July 2026) — the reference implementations of [SMPTE ST 2114](https://ieeexplore.ieee.org/document/8187168), the content identifier standard, in Go, Python, TypeScript, Swift and C, co-versioned and released together through Homebrew, pip, npm, Swift Package Manager and GitHub Container Registry. Separate what a file *is* from where it lives — deduplication, provenance and asset tracking without a central authority. The files keep track of themselves. Includes c4sh, a shell that edits a filesystem as text, and c4git, a git clean/smudge filter that turns git into a media-asset version-control system.
+- **[go-openexr](https://github.com/mrjoshuak/go-openexr)** (v1.1.0, February 2026) — pure-Go OpenEXR. No CGo, no C libraries, the format spec implemented from scratch. All 11 compression codecs including HTJ2K with progressive decode, deep data, multi-part files, tiled storage with mipmap/ripmap, multi-view. Output validated against OpenEXR's own `exrinfo` and `exrcheck`.
+- **[gotio](https://github.com/Avalanche-io/gotio)** (December 2025) — pure-Go OpenTimelineIO, with adapters for Final Cut Pro 7 XML, Final Cut Pro X XML, CMX 3600 EDL, ALE, AAF (via bridge), HLS, GStreamer XGES and SVG.
+- **[godoc-mcp](https://github.com/mrjoshuak/godoc-mcp)** — MCP server that gives coding agents structured Go documentation instead of dumped packages. 100+ stars. Because your copilot should actually be able to read the docs.
+- **[absfs](https://github.com/absfs)** — abstract filesystem framework for Go. 36+ composable packages: in-memory, encrypted, cached, copy-on-write, union, NFS, S3, SFTP, FUSE, and more.
+
+**More pure-Go format implementations** — complex binary formats without CGo:
+- **[go-jpeg2000](https://github.com/mrjoshuak/go-jpeg2000)** — JPEG2000 with HTJ2K support
 - **[go-alembic](https://github.com/mrjoshuak/go-alembic)** — Alembic 3D graphics interchange
 - **[go-blosc](https://github.com/mrjoshuak/go-blosc)** — Blosc compression with SIMD-accelerated shuffle
 
-**AI infrastructure** — Building an AI assistant ecosystem from scratch: persistent memory through local screen recording and OCR, encrypted task coordination with atomic checkout semantics, always-on audio with local-only processing. Privacy-first, no cloud dependency for personal data.
+<!-- Restore this paragraph only once the repos are pushed and public, with every name linked
+     like the bullets above. Until then it stays out: an unlinked repo name on this page reads
+     as work that does not exist.
+
+**August 2026** — [temporal-media](https://github.com/mrjoshuak/temporal-media), a Temporal Go SDK media workflow — fan-out transcode activities with heartbeats and retries; [abr-pipeline](https://github.com/mrjoshuak/abr-pipeline), HLS-CMAF packaging in Go; [go-bwf](https://github.com/mrjoshuak/go-bwf), a BWF/ADM reader and BS.1770-4 loudness meter; and a single CI/CD pipeline for the C4 suite monorepo — merge queue, SLSA provenance, sigstore signing, SBOMs.
+-->
 
 ## Previously
 
-Three decades in visual effects and pipeline engineering, starting at Cinesite Hollywood in 1995. VFX credits include Avatar, Titanic, The Fifth Element, Fight Club, Armageddon, War of the Worlds, The Day After Tomorrow, Stuart Little, and Men in Black II — [39 credits](https://www.imdb.com/name/nm0463978/) across a career spent removing walls between artists and their work.
+Sr. Manager, Microservices at Sphere Studios (Sphere Entertainment). Designed, built and ran the Kubernetes platform behind the studio's internal production systems — the pipelines moved from VM-based to container-native infrastructure-as-code, spinning up on demand, scaling with load, gone when done. Built and shipped a production AI agent integrated with the studio's internal issue tracker, code host and render queues: it reviewed issues, pulled repositories, generated fixes, opened pull requests, correlated tickets across systems and synthesized documentation. Delivered January 2025.
 
-Coined the term, designed the architecture, and led the team that built the first [virtual production](https://www.hollywoodreporter.com/business/business-news/dispute-avatar-prodn-technology-settled-25310/) system — the original prototype for Avatar, alongside Rob Legato and James Cameron. Every LED stage you've seen since started there.
+Before that, designed the C4 content identifier and carried it through SMPTE to publication as ST 2114:2017. The reference implementations were open-sourced through the Entertainment Technology Center at USC.
 
-Before that, created the first photorealistic digital face replacement — a CGI young James Brown for the Experience Music Project — and pioneered HDR image-based lighting for production VFX, both at Digital Domain. The face work predated Benjamin Button by nearly a decade.
-
-<details>
-<summary><b>Full Filmography</b></summary>
-<br>
-
-| Year | Title | Role |
-|------|-------|------|
-| 2011 | Priest | Technical Director |
-| 2010 | Reveillez! | Director / DP / Editor / VFX |
-| 2009 | **Avatar** | Virtual Production Supervisor |
-| 2009 | 2012 | Technical Director |
-| 2009 | Fast & Furious | Compositor |
-| 2008 | The Mummy: Tomb of the Dragon Emperor | Effects Artist |
-| 2007 | The Golden Compass | Effects Technical Director |
-| 2007 | The Invasion | Compositor |
-| 2007 | Rush Hour 3 | Compositor |
-| 2007 | The Mist | Previs Supervisor |
-| 2005 | The Fog | Pre-Visualization Supervisor |
-| 2005 | War of the Worlds | Previs Artist |
-| 2004 | **The Day After Tomorrow** | Previs Supervisor |
-| 2003 | Looney Tunes: Back in Action | Technical Director |
-| 2003 | Jeepers Creepers 2 | Technical Director |
-| 2002 | Men in Black II | Visual Effects |
-| 2002 | Eight Legged Freaks | Technical Director |
-| 2002 | Clockstoppers | Visual Effects |
-| 2001 | The Fast and the Furious | Animator |
-| 2001 | The Shaft | Visual Effects |
-| 2000 | Red Planet | Visual Effects |
-| 2000 | The Artist's Journey: Funk Blast | Visual Effects |
-| 1999 | Stuart Little | Visual Effects |
-| 1999 | **Fight Club** | Visual Effects |
-| 1999 | Deep Blue Sea | Visual Effects |
-| 1998 | **Armageddon** | 3D Animator |
-| 1997 | Flubber | Visual Effects |
-| 1997 | **Titanic** | Visual Effects |
-| 1997 | **The Fifth Element** | Digital Sequence Supervisor |
-| 1996 | T2 3-D: Battle Across Time | Visual Effects |
-| 1995 | Lawnmower Man 2: Beyond Cyberspace | Visual Effects |
-| 1995 | Waterworld | Visual Effects |
-| 1995 | Free Willy 2: The Adventure Home | Visual Effects |
-
-</details>
+Film visual effects. Coined the term "virtual production" and was virtual production supervisor (uncredited) on the Avatar prototype — the virtual art department, virtual camera and Simulcam; the work was [publicly acknowledged by Fox and Lightstorm](https://www.hollywoodreporter.com/business/business-news/dispute-avatar-prodn-technology-settled-25310/). [34 film credits](https://www.imdb.com/name/nm0463978/).
 
 ## Talks
 
-- **SIGGRAPH 2001** — "The Future of Color" panel with cinematographer Allen Daviau ASC
+- **Keynote, Korea Media Festival 2026, Seoul** (June 2026) — "Everyday Work with Hollywood AI"
+- **SMPTE Annual Technical Conference** — the C4 ID system, published as SMPTE ST 2114
 - **[The Magic of C4](https://www.youtube.com/watch?v=vzh0JzKhY4o)** — ETC at USC, on indelible metadata and agreement without communication
-- **[The Cinema Content Creation Cloud](https://www.youtube.com/watch?v=MSsuXNrU3c8)** — Introduction to the C4 framework
-- **[C4 Framework Universal Asset ID](https://www.youtube.com/watch?v=ZHQY0WYmGYU)** — Content-addressable identification for production
-- **[Global File Management with C4](https://www.youtube.com/watch?v=P0vFAvfjTZA)** — Managing assets across distributed systems
-- **[Implementing C4 in Workflows and Software](https://www.youtube.com/watch?v=lZNjG6kcYx0)** — With Joan Wrabetz, practical integration
-- **[NAB Show 2017](https://www.youtube.com/watch?v=8WG8B8-xuss)** — SiliconANGLE theCUBE interview on Avalanche and cloud production
-- **FMX Conference** — The Day After Tomorrow visual effects, Stuttgart
-- **SMPTE 2015** — C4 ID system presentation, led to ST 2114:2017 standard adoption
-- **HPA Tech Retreat 2017** — Panelist, "Production in the Cloud: Pitfalls and Epiphanies"
-
-## Philosophy
-
-> The best solution usually isn't a better answer — it's realizing the question was wrong. Most of the complexity we build around is just unexamined assumptions. Remove the assumption and the problem often disappears with it.
 
 ---
 
-[![Twitter](https://img.shields.io/badge/-@JoshuaKolden-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/JoshuaKolden)
-[![IMDB](https://img.shields.io/badge/-IMDb-F5C518?style=flat-square&logo=imdb&logoColor=black)](https://www.imdb.com/name/nm0463978/)
-[![Email](https://img.shields.io/badge/-joshua@avalanche.io-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:joshua@avalanche.io)
-[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mrjoshuak)
+Seattle, or remote. Platform and infrastructure work — joshua@avalanche.io
